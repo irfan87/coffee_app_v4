@@ -39,6 +39,13 @@ group :development, :test do
   # put sqlite3 in test group also
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+
+  # uncomment this line in Linux
+  gem 'libnotify'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
